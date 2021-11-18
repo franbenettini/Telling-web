@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Telling es una app creada para compartir noticias e información escrita en formato de nota periodística que brindará un espacio en el cual podrán interactuar lectores y escritores.">
+    <meta name="keywords" content="noticias, articulos, informacion, periodistas, contenido, suscripcion, red social, escritores">
+
+    <!--TAB NAVEGADOR-->
+    <title>Sobre Telling</title>
+    <link rel="shortcut icon" type="image/png" href="./img/Ico2.png">
+    <link rel="shortcut icon" sizes="192x192" href="./img/Ico2.png">
+    <link rel="apple-touch-icon" href="./img/Ico2.png">
+    
+    <!--Preload pre cargar algo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Merriweather:wght@300;400;700;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/bootstrap.css" as="style">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="preload" href="build/css/app.css" as="style">
+    <link rel="stylesheet" href="build/css/app.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-white navbar-expand-md navbar-light bg-white justify-content-evenly justify-content-md-center" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="./img/logo telling.svg" alt="logo telling"></a>
+               <!--Burger button-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--Menu de navegacion-->
+              <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarNav">
+                <ul class="navbar-nav text-center text-md-left">
+                  <li class="nav-item"><a class="nav-link section-active" href="sobre_telling.html">Sobre Telling</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Funcionalidades.html">Funcionalidades</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Equipo.html">Equipo</a></li>
+                  <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="somos-telling"></div>
+        <div class="telling-divider"></div>
+        <div class="content">
+            <div>
+                <h2>Somos un equipo con visión.</h2>
+                <h3>Una app que cambiará nuestra forma de ver, crear y compartir información.</h3>
+                <p>Telling es una app creada para compartir noticias e información escrita en formato de nota periodística que brindará un espacio en el cual podrán interactuar lectores y escritores.</p>
+                <p>Un espacio libre de publicidad con un sistema de búsqueda simplificado y adaptado a los criterios de búsqueda y preferencias de los usuarios.</p>
+                <div class="content-img">
+                    <img class="img-mediana" loading="lazy" src="build/img/Somos telling 2.png" alt="Gente trabajando">
+                </div>
+                <p>Los escritores, tendrán la posibilidad de ser apoyados por su público con un sistema de suscripción mensual, además de poder obtener mayor exposición de su trabajo por medio de la interacción de sus lectores: por medio de me gustas, comentarios y suscripciones.</p>
+                <p>A su vez, priorizamos el uso de MercadoPago como sistema de cobros que nos permitirá poner en funcionamiento la aplicación en todos los países donde se encuentre MercadoLibre.</p>
+            </div>  
+        </div>
+    </section>
+
+ 
+    <footer class="footer padding-lateral">
+        <div class="container-footer">
+            <!--izquierda del Footer-->
+            <div class="left-footer">
+                <a class="logo-footer" href="index.html">
+                    <img src="./img/Logo telling footer.svg" alt="logotipo">
+                </a>
+
+                <div class="redes">
+                    <a href="https://www.facebook.com/telling.latam" target="_blank">
+                        <img src="./img/Facebook.svg" alt="Facebook">  
+                    </a>
+                    <a href="https://twitter.com/telling_latam" target="_blank">
+                        <img src="./img/Twitter.svg" alt="Twitter">  
+                    </a>
+                    <a href="https://www.instagram.com/telling.latam/" target="_blank">
+                        <img src="./img/Instagram.svg" alt="Instagram"> 
+                    </a>
+                    <a href="https://www.linkedin.com/company/telling-news-social-media/about/" target="_blank">
+                        <img src="./img/Linkedin.svg" alt="Linkedin"> 
+                    </a>  
+                </div>    
+
+            </div>
+            <!--Centro del Footer-->
+            <div class="middle-footer">
+                <div>
+                    <span>Menu</span>
+                </div>
+                <div class="telling-divider-footer"></div>
+                <div>
+                    <nav>
+                        <a href="sobre_telling.html" class="navegacion-enlace-footer">Sobre Telling</a>
+                        <a href="Funcionalidades.html" class="navegacion-enlace-footer">Funcionalidades</a>
+                        <a href="Equipo.html" class="navegacion-enlace-footer">Equipo</a>
+                        <a href="Blog.html" class="navegacion-enlace-footer">Blog</a>
+                        <a href="contacto.html" class="navegacion-enlace-footer">Contacto</a>
+                    </nav>
+                </div>
+                
+            </div>
+            <!--Derecha del Footer-->
+            <div class="right-footer">
+                <form class="formulario-beta">
+                    <div>
+                        <input class="telling-input-footer" type="email" placeholder="Tu Email" id="email">
+                    </div>
+                    <div>
+                        <button class="primary-button-footer">Accede a la <strong>Beta</strong></button>
+                    </div>
+                </form>  
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+
+    <script src="js/scrollbehavior.js"></script>
+</body>
+</html>

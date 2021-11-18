@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma de noticias informativas">
+    <meta name="keywords" content="noticias, articulos, informacion, periodistas, contenido, suscripcion, red social, escritores">
+
+    <!--TAB NAVEGADOR-->
+    <title>Contactanos</title>
+    <link rel="shortcut icon" type="image/png" href="./img/Ico2.png">
+    <link rel="shortcut icon" sizes="192x192" href="./img/Ico2.png">
+    <link rel="apple-touch-icon" href="./img/Ico2.png">
+
+    <!--Preload pre cargar algo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Merriweather:wght@300;400;700;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/bootstrap.css" as="style">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="preload" href="build/css/app.css" as="style">
+    <link rel="stylesheet" href="build/css/app.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-white navbar-expand-md navbar-light bg-white justify-content-evenly justify-content-md-center" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="./img/logo telling.svg" alt="logo telling"></a>
+               <!--Burger button-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--Menu de navegacion-->
+              <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarNav">
+                <ul class="navbar-nav text-center text-md-left">
+                  <li class="nav-item"><a class="nav-link" href="sobre_telling.html">Sobre Telling</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Funcionalidades.html">Funcionalidades</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Equipo.html">Equipo</a></li>
+                  <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                  <li class="nav-item"><a class="nav-link section-active" href="contacto.html">Contacto</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    
+
+    <main>
+        <section>
+            <div class="contenedor-item">
+                <div class="item gradient-left my-5">
+                    <div class="padding-lateral">
+                        <div class="texto-contacto">
+                            <h2 class="no-margin">Contanos sobre vos.</h2>
+                            <span>Queremos conocerte y resolver tus dudas!</span>      
+                        </div>
+                        <div class="contact-form">
+                            <form class="col-12 d-flex justify-content-end align-content-start flex-wrap">
+                                <div class="col-12">
+                                    <div class="col-12 mb-3 d-flex justify-content-between align-content-start flex-wrap">
+                                        <input class="col-6 telling-input" type="text" placeholder="Tu Nombre" id="nombre" required>
+                                        <input class="col-5 telling-input" type="email" placeholder="Tu Email" id="email" required>   
+                                    </div>
+                                    <textarea class="telling-input col-12" placeholder="Mensaje " id="mensaje" required></textarea>
+                                </div>
+                                <button class="primary-button" value="Send">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="item gradient-right">
+                    <img class="image" loading="lazy" src="build/img/Iphone_newspaper.png" alt="imagen ilustrativa celular">
+                </div>
+            </div>
+        </section>
+     
+    </main>  
+
+    <footer class="footer padding-lateral">
+        <div class="container-footer">
+            <!--izquierda del Footer-->
+            <div class="left-footer">
+                <a class="logo-footer" href="index.html">
+                    <img src="./img/Logo telling footer.svg" alt="logotipo">
+                </a>
+
+                <div class="redes">
+                    <a href="https://www.facebook.com/telling.latam" target="_blank">
+                        <img src="./img/Facebook.svg" alt="Facebook">  
+                    </a>
+                    <a href="https://twitter.com/telling_latam" target="_blank">
+                        <img src="./img/Twitter.svg" alt="Twitter">  
+                    </a>
+                    <a href="https://www.instagram.com/telling.latam/" target="_blank">
+                        <img src="./img/Instagram.svg" alt="Instagram"> 
+                    </a>
+                    <a href="https://www.linkedin.com/company/telling-news-social-media/about/" target="_blank">
+                        <img src="./img/Linkedin.svg" alt="Linkedin"> 
+                    </a>  
+                </div>    
+
+            </div>
+            <!--Centro del Footer-->
+            <div class="middle-footer">
+                <div>
+                    <span>Menu</span>
+                </div>
+                <div class="telling-divider-footer"></div>
+                <div>
+                    <nav>
+                        <a href="sobre_telling.html" class="navegacion-enlace-footer">Sobre Telling</a>
+                        <a href="Funcionalidades.html" class="navegacion-enlace-footer">Funcionalidades</a>
+                        <a href="Equipo.html" class="navegacion-enlace-footer">Equipo</a>
+                        <a href="Blog.html" class="navegacion-enlace-footer">Blog</a>
+                        <a href="contacto.html" class="navegacion-enlace-footer">Contacto</a>
+                    </nav>
+                </div>
+                
+            </div>
+            <!--Derecha del Footer-->
+            <div class="right-footer">
+                <form class="formulario-beta">
+                    <div>
+                        <input class="telling-input-footer" type="email" placeholder="Tu Email" id="email">
+                    </div>
+                    <div>
+                        <button class="primary-button-footer">Accede a la <strong>Beta</strong></button>
+                    </div>
+                </form>  
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+
+    <script src="js/scrollbehavior.js"></script>
+</body>
+</html>
