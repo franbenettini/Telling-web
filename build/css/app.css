@@ -1277,8 +1277,17 @@ img {
     position: relative;
     width: 70%;
   }
+
+  .gradient-left {
+    margin-bottom: 16rem;
+  }
+
+  #img-bottom {
+    width: 75%;
+    bottom: 10rem;
+  }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 778px) and (max-width: 1200px) {
   .item {
     padding-top: 0;
     width: 100%;
@@ -1305,7 +1314,7 @@ img {
 
   #img-bottom {
     position: relative;
-    width: 55%;
+    width: 65%;
     bottom: 15rem;
   }
 
