@@ -10,10 +10,7 @@
 }
 
 .content{
-    margin-bottom: 10rem;
-    margin-right:20vw;
-    margin-left: 20vw;
-    margin-top: 5rem;
+    margin: 5rem 20vw 10rem 20vw;
 
     h3 {
         margin-top: 3.2rem;
@@ -49,5 +46,11 @@
 @media (max-width: 767px) {
     .section-active{
         border-bottom:3px solid transparent;
+    }
+}
+
+@media (max-width: 575px) {
+    .content{
+        margin: 5rem 12vw 10rem 12vw;
     }
 }

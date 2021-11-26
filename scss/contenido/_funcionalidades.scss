@@ -112,3 +112,13 @@
         border-bottom:3px solid transparent;
     }
 }
+
+@media (max-width: 575px) {
+    .function{
+        display:inline;
+
+        .part1-function, .part2-function{
+            width: 100%;
+        }
+    }
+}
