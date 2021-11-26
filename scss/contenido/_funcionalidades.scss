@@ -63,7 +63,7 @@
     }
 
     p{
-        padding: 0 20rem 0 0;
+        margin: 0 20rem 0 0;
     }
 }
 
@@ -132,6 +132,10 @@
 
         .part1-text, .part2-text{
             padding: 5rem;
+
+            p{
+                margin: 0 10rem 0 0;
+            }
         }
     }
 }
@@ -146,6 +150,21 @@
 
         .part1-text, .part2-text{
             padding: 5rem;
+
+            p{
+                margin: 0 10rem 0 0;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 576px)  and (max-width: 1369px){
+    .part1-text, .part2-text{
+        padding: 5rem;
+
+        p{
+            margin: 0 5rem 0 0;
         }
     }
 }
