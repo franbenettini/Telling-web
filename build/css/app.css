@@ -643,6 +643,11 @@ img {
   .padding-lateral {
     padding: 0 4rem 0 4rem;
   }
+
+  .image {
+    width: 87% !important;
+    top: 15rem;
+  }
 }
 @media (max-width: 495px) {
   .texto-contacto h2 {
@@ -1064,6 +1069,9 @@ img {
 .part1-text h3 {
   margin: 1.8rem 0;
 }
+.part1-text p {
+  padding: 0 20rem 0 0;
+}
 
 .part2-text {
   display: flex;
@@ -1073,6 +1081,9 @@ img {
 }
 .part2-text h3 {
   margin: 1.8rem 0;
+}
+.part2-text p {
+  margin: 0 20rem 0 0;
 }
 
 .part1-function {
@@ -1116,6 +1127,20 @@ img {
   }
   .function .part1-function, .function .part2-function {
     width: 100%;
+  }
+  .function .part1-text, .function .part2-text {
+    padding: 5rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .function {
+    display: inline;
+  }
+  .function .part1-function, .function .part2-function {
+    width: 100%;
+  }
+  .function .part1-text, .function .part2-text {
+    padding: 5rem;
   }
 }
 .navbar-toggler {
