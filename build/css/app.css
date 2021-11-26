@@ -1361,6 +1361,7 @@ img {
   }
 
   #img-bottom {
+    width: 80%;
     bottom: 10rem;
   }
 }
