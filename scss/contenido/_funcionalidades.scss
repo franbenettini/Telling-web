@@ -140,6 +140,17 @@
             width: 100%;
         }
     }
+    .profiles{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 0;
+        margin-bottom: 0;
+        place-items: center;
+
+        img{
+            width: 80%;
+        }
+    }
 }
 
 

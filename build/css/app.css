@@ -539,7 +539,11 @@ img {
 
 @media (min-width: 576px) and (max-width: 1199px) {
   .text-cover h2 {
-    font-size: 4.8rem;
+    font-size: 3.3rem;
+    line-height: 4rem;
+  }
+  .text-cover span {
+    font-size: 2.3rem;
   }
 
   .title-blog {
@@ -578,6 +582,14 @@ img {
   }
 }
 @media (max-width: 575px) {
+  .text-cover h2 {
+    font-size: 3.3rem;
+    line-height: 4rem;
+  }
+  .text-cover span {
+    font-size: 2.3rem;
+  }
+
   .title-blog {
     display: flex;
     justify-content: center;
@@ -1135,6 +1147,17 @@ img {
   }
   .function .part1-function, .function .part2-function {
     width: 100%;
+  }
+
+  .profiles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 0;
+    margin-bottom: 0;
+    place-items: center;
+  }
+  .profiles img {
+    width: 80%;
   }
 }
 @media (max-width: 1369px) {
