@@ -1148,17 +1148,6 @@ img {
   .function .part1-function, .function .part2-function {
     width: 100%;
   }
-
-  .profiles {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 0;
-    margin-bottom: 0;
-    place-items: center;
-  }
-  .profiles img {
-    width: 80%;
-  }
 }
 @media (max-width: 1369px) {
   .part1-text, .part2-text {
@@ -1166,6 +1155,10 @@ img {
   }
   .part1-text p, .part2-text p {
     margin: 0 5rem 0 0;
+  }
+
+  .profiles {
+    display: none;
   }
 }
 .navbar-toggler {
@@ -1398,7 +1391,10 @@ img {
 }
 @media (max-width: 499px) {
   .texto-index h1 {
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+  .texto-index p {
+    font-size: 1.4rem;
   }
 
   .contenedor-left {
@@ -1467,6 +1463,6 @@ img {
 }
 @media (max-width: 575px) {
   .content {
-    margin: 5rem 12vw 10rem 12vw;
+    margin: 5rem 10vw 10rem 10vw;
   }
 }
