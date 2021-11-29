@@ -60,7 +60,7 @@ function dev ( done ){
 
 exports.css = css;
 exports.imagenes = imagenes;
-exports.versionwebp = versionwebp
-exports.versionAvif = versionAvif
+exports.versionwebp = versionwebp;
+exports.versionAvif = versionAvif;
 exports.dev = parallel( imagenes, versionwebp, versionAvif, dev );
 exports.devt = dev;
