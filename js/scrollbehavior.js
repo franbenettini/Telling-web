@@ -8,11 +8,11 @@ function scrollinparalax(){
     console.log(windowscroll);
 
     if (windowwidth > 750){
-        if (windowscroll  > 100){
+        if (windowscroll  > 110){
             $('.navbar-index').css('background-color','#FFFFFF');
             $('#navbar').addClass('fixed-top');
         };
-        if (windowscroll  <= 100){
+        if (windowscroll  <= 110){
             $('.navbar-index').css('background-color','transparent')
             $('#navbar').removeClass('fixed-top');
         };  
