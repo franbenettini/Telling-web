@@ -12,7 +12,7 @@
         color: v.$telling_black;
         font-size: 12rem;
         font-family: v.$fuenteParrafos1;
-        margin-bottom: 2.5rem;
+        margin: 2rem 0 2.5rem 0;
     }
 
     h2{
@@ -24,6 +24,10 @@
     a{
         margin-top: 4rem;
         color: v.$telling_white;
+    }
+
+    img{
+        width: 12%;
     }
 }
 
