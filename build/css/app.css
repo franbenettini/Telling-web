@@ -1485,3 +1485,26 @@ img {
     margin: 5rem 10vw 10rem 10vw;
   }
 }
+.not-found {
+  display: flex;
+  margin-top: 20rem;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.not-found h1 {
+  color: #2C3944;
+  font-size: 12rem;
+  font-family: "Merriweather", serif;
+  margin-bottom: 2.5rem;
+}
+.not-found h2 {
+  color: #2C3944;
+  font-family: "Merriweather", serif;
+  font-size: 3.4rem;
+}
+.not-found a {
+  margin-top: 4rem;
+  color: white;
+}

@@ -1,0 +1,35 @@
+@use 'base/variables' as v;
+
+.not-found{
+    display: flex;
+    margin-top: 20rem;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    h1{
+        color: v.$telling_black;
+        font-size: 12rem;
+        font-family: v.$fuenteParrafos1;
+        margin-bottom: 2.5rem;
+    }
+
+    h2{
+        color: v.$telling_black;
+        font-family: v.$fuenteParrafos1;
+        font-size: 3.4rem;
+    }
+
+    a{
+        margin-top: 4rem;
+        color: v.$telling_white;
+    }
+}
+
+
+
+
+
+
+
