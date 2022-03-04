@@ -19,7 +19,3 @@ Ingresar al sitio web con el siguiente link: franbenettini.github.io/Telling-web
 ## Expresiones de Gratitud 🎁
 
 * Muchas gracias por leer !!
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
